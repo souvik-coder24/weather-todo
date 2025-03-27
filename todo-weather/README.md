@@ -47,11 +47,18 @@ A feature-rich Weather & Todo app that allows users to check real-time weather u
 
 ## Screenshots 
 
-![Weather Module]([./screenshots/weather.png](https://github.com/souvik-coder24/weather-todo/blob/ca632b2b91dd6619e0bf9f4c7724b201f2887c0a/todo-weather/Screenshot%20(19).png))
 *Weather feature with dynamic animations.*
+![image alt]([./screenshots/weather.png](https://github.com/souvik-coder24/weather-todo/blob/ca632b2b91dd6619e0bf9f4c7724b201f2887c0a/todo-weather/Screenshot%20(19).png))
+![image alt](https://github.com/souvik-coder24/weather-todo/blob/9ea9d747b25c117157f8818749dbfecda7ac45fc/todo-weather/Screenshot%20(21).png)
+![image alt](https://github.com/souvik-coder24/weather-todo/blob/9ea9d747b25c117157f8818749dbfecda7ac45fc/todo-weather/Screenshot%20(20).png)
 
-![Todo Module](./screenshots/todo.png)
 *Secure Todo list with priority-based tasks.*
+
+![image alt](https://github.com/souvik-coder24/weather-todo/blob/9ea9d747b25c117157f8818749dbfecda7ac45fc/todo-weather/Screenshot%20(22).png)
+![image alt](https://github.com/souvik-coder24/weather-todo/blob/9ea9d747b25c117157f8818749dbfecda7ac45fc/todo-weather/Screenshot%20(24).png)
+![image alt](https://github.com/souvik-coder24/weather-todo/blob/9ea9d747b25c117157f8818749dbfecda7ac45fc/todo-weather/Screenshot%20(25).png)
+![image alt](https://github.com/souvik-coder24/weather-todo/blob/9ea9d747b25c117157f8818749dbfecda7ac45fc/todo-weather/Screenshot%20(26).png)
+![image alt](https://github.com/souvik-coder24/weather-todo/blob/9ea9d747b25c117157f8818749dbfecda7ac45fc/todo-weather/Screenshot%20(27).png)
 
 ## Folder Structure 
 ```
