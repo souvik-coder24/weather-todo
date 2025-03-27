@@ -2,6 +2,9 @@
 
 A feature-rich Weather & Todo app that allows users to check real-time weather updates for any location with dynamic animations and manage their tasks efficiently with authentication and priority settings. Built with **React, Redux, and Local Storage** for persistent data.
 
+### Live Link
+- **Website https://tangerine-lamington-3426fc.netlify.app/
+
 ## Features
 
 ### Weather Module
