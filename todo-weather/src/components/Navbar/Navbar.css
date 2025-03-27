@@ -1,0 +1,155 @@
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background-color: rgba(72, 72, 72, 0.92);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    width: 67.8%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #FFD700;
+  }
+  
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .login-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .user {
+    font-size: 20px;
+  }
+  
+  .logout {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .welcome-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .logout-icon {
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .logout-icon:hover {
+    color: darkred;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 1024px) {
+    .navbar {
+      padding: 12px 30px;
+      width: 52.5%;
+    }
+    
+    .title {
+      font-size: 22px;
+    }
+  
+    .login-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .logout-icon {
+      font-size: 22px;
+    }
+  
+    .welcome-message {
+      font-size: 16px;
+    }
+  }
+  
+  /* Tablet Screens */
+  @media (max-width: 768px) {
+    .navbar {
+      width: 55.5%;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 15px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  
+    .nav-actions {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .login-btn {
+      width: 100%;
+      max-width: 200px;
+      text-align: center;
+    }
+  }
+  
+  /* Mobile Screens */
+  @media (max-width: 480px) {
+    .navbar {
+      width: 86%;
+    }
+  
+    .title {
+      font-size: 18px;
+    }
+  
+    .nav-actions {
+      flex-direction: column;
+      gap: 8px;
+    }
+  
+    .login-btn {
+      width: 90%;
+      font-size: 14px;
+    }
+  
+    .welcome-message {
+      font-size: 14px;
+    }
+  
+    .logout-icon {
+      font-size: 20px;
+    }
+  }  

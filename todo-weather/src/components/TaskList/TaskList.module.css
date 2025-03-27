@@ -1,0 +1,175 @@
+.container {
+    padding: 12px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    margin: 15px auto;
+    width: 100%;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.taskInput {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    flex: 1;
+    resize: vertical;
+    min-width: 160px;
+}
+
+.prioritySelect {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.addButton {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.addButton:hover {
+    background-color: #45a049;
+}
+
+.taskList {
+    max-height: 250px;
+    overflow-y: auto;
+    margin-top: 15px;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    min-height: 40px;
+}
+
+.buttonsContainer {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.updateButton,
+.deleteButton {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.updateButton {
+    background-color: #f39c12;
+    color: white;
+}
+
+.deleteButton {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.updateButton:hover {
+    background-color: #e67e22;
+}
+
+.deleteButton:hover {
+    background-color: #c0392b;
+}
+
+.updateButton svg,
+.deleteButton svg {
+    font-size: 16px;
+}
+
+/* Responsive Design */
+
+/* Medium Screens (Tablets) */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 85%;
+    }
+
+    .taskInput {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .prioritySelect {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .addButton {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .updateButton,
+    .deleteButton {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .inputContainer {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .taskInput,
+    .prioritySelect,
+    .addButton {
+        width: 100%;
+    }
+
+    .task {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .buttonsContainer {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .updateButton,
+    .deleteButton {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
